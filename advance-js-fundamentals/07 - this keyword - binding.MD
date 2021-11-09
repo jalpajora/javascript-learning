@@ -2,10 +2,10 @@
 
 `this` keyword references the execution context of a functions call. Determines how the function is called at run time EXCEPT for arrow functions.
 
-## Questions to know what is the `this` value is
+## Checklist to know what is the `this` value is
 
 1. Was the function invoked?
-2. How was it invoked? Implicit binding with ()
+2. How was it invoked?
 3. What context was it invoked in?
 
 ### Sample 1
