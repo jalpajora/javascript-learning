@@ -21,7 +21,13 @@ Array.prototype.concatAll = function () {
   return results;
 };
 
-var stocks = exchanges.concatAll();
+var stocks = exchanges
+  .map(function (exchange) {
+    return exchanges.stocks.filter(function (stock) {
+      return stock.price >= 100.0;
+    });
+  })
+  .concatAll();
 
 stocks.forEach(function (stock) {
   console.log(JSON.stringify(stock));
