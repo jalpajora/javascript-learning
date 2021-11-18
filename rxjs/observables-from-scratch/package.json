@@ -1,0 +1,20 @@
+{
+  "name": "observables-from-scratch",
+  "version": "1.0.0",
+  "description": "https://egghead.io/courses/rxjs-beyond-the-basics-creating-observables-from-scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn parcel"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rxjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
